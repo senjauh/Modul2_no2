@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="@color/grey">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+        <ImageView
+            android:contentDescription="@string/desc_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:src="@drawable/img_5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/judul"
+            android:textSize="70px"
+            android:textColor="@color/green"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+    </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParet"
+            android:background="@color/grey">
+
+            <TextView
+                android:id="@+id/youtube"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/nav1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/history"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/nav2" />
+
+            <TextView
+                android:id="@+id/spotify"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/nav3" />
+
+            <TextView
+                android:id="@+id/mv"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/nav4" />
+        </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/desc_judul"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="110dp"
+            android:layout_marginBottom="24dp"
+            android:text="PERSONEL"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow tools:ignore="UselessParent">
+            <ImageView
+                android:src="@drawable/img"
+                android:contentDescription="@string/konten1"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:text="@string/konten1"
+                android:layout_width="330dp"
+                android:textColor="@color/white"
+                android:layout_height="match_parent"
+                android:layout_column="2"/>
+        </TableRow>
+
+        <TableRow tools:ignore="UselessParent">
+            <ImageView
+                android:src="@drawable/img_1"
+                android:contentDescription="@string/konten2"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:text="@string/konten2"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:textAlignment="inherit"
+                android:textColor="@color/white"
+                android:layout_column="2"/>
+        </TableRow>
+
+        <TableRow tools:ignore="UselessParent">
+            <ImageView
+                android:src="@drawable/img_2"
+                android:contentDescription="@string/konten2"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:text="@string/konten3"
+                android:layout_width="330dp"
+                android:textColor="@color/white"
+                android:layout_height="match_parent"
+                android:textAlignment="inherit"
+                android:layout_column="2"/>
+        </TableRow>
+
+        <TableRow tools:ignore="UselessParent">
+            <ImageView
+                android:src="@drawable/img_3"
+                android:contentDescription="@string/konten4"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:text="@string/konten4"
+                android:layout_width="330dp"
+                android:textColor="@color/white"
+                android:layout_height="match_parent"
+                android:textAlignment="inherit"
+                android:layout_column="1"/>
+        </TableRow>
+
+        <TableRow tools:ignore="UselessParent">
+            <ImageView
+                android:src="@drawable/img_4"
+                android:contentDescription="@string/konten5"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_column="1"/>
+
+            <TextView
+                android:text="@string/konten5"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:textAlignment="inherit"
+                android:textColor="@color/white"
+                android:layout_column="2"/>
+        </TableRow>
+    </TableLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

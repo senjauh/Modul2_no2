@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">modul2_no1</string>
+
+    <string name="nav1"><a href="https://www.youtube.com/channel/UCUDVBtnOQi4c7E8jebpjc9Q">Youtube</a></string>
+    <string name="nav2"><a href="https://id.wikipedia.org/wiki/Oasis_(grup_musik)">History</a></string>
+    <string name="nav3"><a href="https://open.spotify.com/artist/2DaxqgrOhkeH0fpeiQq2f4">Spotify</a></string>
+    <string name="nav4"><a href="https://youtu.be/r8OipmKFDeM">Music Video</a></string>
+
+    <string name="judul">OASIS</string>
+    <string name="desc_judul">Oasis adalah band rock asal Inggris yang dibentuk di Manchester pada tahun 1991. Pada awalnya menggunakan nama the Rain, grup ini dibentuk oleh Liam Gallagher (vokal), Paul Arthurs (gitar), Paul McGuigan (bass), dan Tony McCarroll (drum dan perkusi), hingga kemudian ikut bergabung pula kakak Liam, Noel Gallagher (gitar dan vokal).</string>
+
+    //string utk konten
+    <string name="konten1"><b>Liam Gallagher (Vocalis)</b> Ervin John Paul Gallagher (lahir 21 September 1972) merupakan seorang penyanyi dan penulis lagu berkebangsaan Inggris. Dia merupakan vokalis dari Grup Musik Inggris Oasis dari tahun 1991-2009 sebelum akhirnya merilis debut album solonya sendiri pada tahun 2017</string>
+
+    <string name="konten2"><b>Noel Gallagher (Vocalis)</b> Noel Thomas David Gallagher (lahir 29 Mei 1967 di Longsight, Manchester, Inggris) adalah gitaris, penulis lagu, dan pemusik berkebangsaan Inggris. </string>
+
+    <string name="konten3"><b>Paul Benjamin Arthurs(Gitaris)</b> (lahir 23 Juni 1965), dikenal secara profesional sebagai Bonehead , adalah musisi Inggris. Ia paling dikenal sebagai gitaris ritem, sesekali kibordis, dan salah satu pendiri band rock Oasis .</string>
+
+    <string name="konten4"><b>Paul Francis McGuigan(Basis)</b> (lahir 9 Mei 1971), dikenal secara profesional sebagai Guigsy (diucapkan "Gwigzee"), adalah pensiunan musisi Inggris. Dia paling dikenal sebagai bassis dan salah satu pendiri band rock Inggris Oasis .</string>
+
+    <string name="konten5"><b>Anthony McCarroll(Drum)</b>(lahir 4 Juni 1971) adalah seorang drummer Inggris dan salah satu anggota pendiri band rock Inggris Oasis , sebagai drummer mereka dari tahun 1991 hingga pemecatannya pada April 1995.</string>
+</resources>
